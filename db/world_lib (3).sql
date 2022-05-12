@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Waktu pembuatan: 12 Bulan Mei 2022 pada 18.03
+-- Waktu pembuatan: 12 Bulan Mei 2022 pada 18.09
 -- Versi server: 10.4.18-MariaDB
 -- Versi PHP: 8.0.3
 
@@ -59,14 +59,6 @@ CREATE TABLE `buku` (
   `is_delete` bit(1) NOT NULL DEFAULT b'0',
   `status_buku` int(11) NOT NULL DEFAULT 0
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
-
---
--- Dumping data untuk tabel `buku`
---
-
-INSERT INTO `buku` (`id_buku`, `judul`, `tahun`, `jml_unduhan`, `bahasa`, `book_file`, `kd_penerbit`, `kd_penulis`, `is_delete`, `status_buku`) VALUES
-(2001, 'The Man', 2002, 1, 'Indonesia', '1171-2309-1-SP.docx', 301, 201, b'0', 0),
-(20002, 'The Girl', 2003, 2, 'English', 'ACC_Kel11_Modul6 (1).docx', 301, 201, b'0', 0);
 
 -- --------------------------------------------------------
 
