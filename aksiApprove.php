@@ -8,7 +8,7 @@ $path_book_file = $_GET['book_file'];
 $sql = "SELECT * FROM buku WHERE id_buku = '$id'";
 $query = mysqli_query($conn, $sql);
 
-$path = "book/".$path_book_file;
+$path = $path_book_file;
 
 $data_buku = mysqli_fetch_assoc($query);
 

@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Waktu pembuatan: 12 Bulan Mei 2022 pada 17.46
+-- Waktu pembuatan: 12 Bulan Mei 2022 pada 18.03
 -- Versi server: 10.4.18-MariaDB
 -- Versi PHP: 8.0.3
 
@@ -65,12 +65,8 @@ CREATE TABLE `buku` (
 --
 
 INSERT INTO `buku` (`id_buku`, `judul`, `tahun`, `jml_unduhan`, `bahasa`, `book_file`, `kd_penerbit`, `kd_penulis`, `is_delete`, `status_buku`) VALUES
-(23232, 'The Man', 2002, 222, 'English', 'book/PRESENTASI KELAYAKAN.pdf', 301, 201, b'0', 1),
-(30001, 'Buku Menggambar', 2222, 22, 'Indonesia', 'book/mod3 bagian jay.docx', 301, 201, b'0', 1),
-(30002, 'The Thunder', 2003, 22, 'English', 'uts IMK Genap 2022 (1).docx', 301, 201, b'0', 1),
-(30003, 'My Sun', 2222, 222, 'Indonesia', 'book/Refanda Surya S_21120120120022_UTS Sistem Operasi.pdf', 301, 201, b'0', 1),
-(11111111, 'e2r2r2r', 2222, 222, 'Indonesia', 'PSD2022_Bab14_Kelompok38.docx', 301, 201, b'0', 0),
-(2147483647, 'wdwdwd', 22, 22, 'Indonesia', 'PSD2022_Bab14_Kelompok38.docx', 301, 201, b'0', 1);
+(2001, 'The Man', 2002, 1, 'Indonesia', '1171-2309-1-SP.docx', 301, 201, b'0', 0),
+(20002, 'The Girl', 2003, 2, 'English', 'ACC_Kel11_Modul6 (1).docx', 301, 201, b'0', 0);
 
 -- --------------------------------------------------------
 
